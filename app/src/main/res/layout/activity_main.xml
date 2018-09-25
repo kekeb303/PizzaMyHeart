@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="1dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+
+    <ImageView
+        android:id="@+id/Pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:text="Pizza My Heart"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="50sp"
+        android:layout_below="@+id/Pizza"/>
+
+    <TextView
+        android:id="@+id/Street"
+        android:text="1396 Lincoln Ave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_below="@+id/Title"/>
+
+    <TextView
+        android:id="@+id/City"
+        android:text="San Jose, CA 95125"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Street"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Phone"
+        android:text="P: 408-279-4441"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp" />
+
+</RelativeLayout>
